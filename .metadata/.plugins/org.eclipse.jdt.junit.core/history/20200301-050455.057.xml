@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="18" started="18" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="43.92">
+    <testsuite name="Feature: Testing Search feature in Search Website" time="43.92">
+      <testsuite name="Scenario: Test Searching for vegetable cucumber" time="3.533">
+        <testcase name="Given User is on landing page" classname="Scenario: Test Searching for vegetable cucumber" time="3.281"/>
+        <testcase name="When User searches for Cucumber vegetable" classname="Scenario: Test Searching for vegetable cucumber" time="0.083"/>
+        <testcase name="Then &quot;Cucumber&quot; results are displayed" classname="Scenario: Test Searching for vegetable cucumber" time="0.169"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Test Checkout for vegetable brinjal" time="30.535">
+        <testsuite name="Examples: Testing with different vegetables" time="30.535">
+          <testsuite name="| Brinjal |" time="3.947">
+            <testcase name="Given User is on landing page" classname="| Brinjal |" time="3.239"/>
+            <testcase name="When User searches for Brinjal vegetable" classname="| Brinjal |" time="0.327"/>
+            <testcase name="And Items added to Carts" classname="| Brinjal |" time="0.178"/>
+            <testcase name="And User proceeds to checkout for purchase" classname="| Brinjal |" time="0.042"/>
+            <testcase name="Then Check whether selected Brinjal is available in checkout page" classname="| Brinjal |" time="0.16"/>
+          </testsuite>
+          <testsuite name="| Beetroot |" time="3.794">
+            <testcase name="Given User is on landing page" classname="| Beetroot |" time="3.245"/>
+            <testcase name="When User searches for Beetroot vegetable" classname="| Beetroot |" time="0.213"/>
+            <testcase name="And Items added to Carts" classname="| Beetroot |" time="0.139"/>
+            <testcase name="And User proceeds to checkout for purchase" classname="| Beetroot |" time="0.033"/>
+            <testcase name="Then Check whether selected Beetroot is available in checkout page" classname="| Beetroot |" time="0.164"/>
+          </testsuite>
+          <testsuite name="| Beans |" time="3.998">
+            <testcase name="Given User is on landing page" classname="| Beans |" time="3.237"/>
+            <testcase name="When User searches for Beans vegetable" classname="| Beans |" time="0.245"/>
+            <testcase name="And Items added to Carts" classname="| Beans |" time="0.218"/>
+            <testcase name="And User proceeds to checkout for purchase" classname="| Beans |" time="0.038"/>
+            <testcase name="Then Check whether selected Beans is available in checkout page" classname="| Beans |" time="0.26"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -15,6 +15,8 @@ public class Base {
 
 	public static WebDriver getDriver() throws IOException {
 		prop=new Properties();
+		File file=new File("pom.xml");
+		System.out.println(file.getAbsolutePath());
 		FileInputStream fis=new FileInputStream(new File("src\\test\\java\\global.properties"));        
         prop.load(fis);
 		System.setProperty("webdriver.chrome.driver","C:\\Temp\\ChromeDriver\\chromedriver.exe");

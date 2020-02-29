@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.921258">
-<testcase classname="Testing Search feature in Search Website" name="Test Searching for vegetable cucumber" time="16.921258">
-<system-out><![CDATA[Given User is on landing page...............................................passed
-When User searches for Cucumber vegetable...................................passed
-Then "Cucumber" results are displayed.......................................passed
-]]></system-out>
-</testcase>
-</testsuite>

@@ -15,7 +15,7 @@ public class Base {
 
 	public static WebDriver getDriver() throws IOException {
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream(new File("src\\test\\java\\global.properties"));        
+		FileInputStream fis=new FileInputStream(new File("C:\\Users\\UmaRa\\eclipse-workspace\\Cucumber\\src\\test\\java\\global.properties"));        
         prop.load(fis);
 		System.setProperty("webdriver.chrome.driver","C:\\Temp\\ChromeDriver\\chromedriver.exe");
         driver=new ChromeDriver();
