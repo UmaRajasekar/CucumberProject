@@ -1,0 +1,37 @@
+package stepDefinitions;
+
+//import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class IndiaReport {
+
+    @Given("^A browser is opened$")
+    public void a_browser_is_opened() throws Throwable {
+        //throw new PendingException();
+    	System.out.println("Browser is opened");
+    }
+
+    @When("^A India-Wiki \"([^\"]*)\" is entered $")
+    public void a_indiawiki_url_is_entered(String strArg1) throws Throwable {
+        //throw new PendingException();
+    	System.out.println("A "+strArg1+"-Wiki URL is entered");
+    }
+
+    @Then("^A web page opened with \"([^\"]*)\" displayed in block letters$")
+    public void a_web_page_opened_with_something_displayed_in_block_letters(String strArg1) throws Throwable {
+        //throw new PendingException();
+    	System.out.println("A web page opened with "+strArg1+" displayed in block letters");
+    }
+
+    @And("^Article and Talk tabs are displayed - \"([^\"]*)\"$")
+    public void article_and_talk_tabs_are_displayed_something(String strArg1) throws Throwable {
+        System.out.println("Article and Talk tabs display status:"+strArgs1);
+    }
+
+}

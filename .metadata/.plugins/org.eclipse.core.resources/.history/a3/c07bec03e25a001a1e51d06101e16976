@@ -1,0 +1,26 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class ShoppingCartHomePage {
+	
+	private WebDriver driver;
+	private By searchVeg=By.xpath("//input[@type='search']");
+	private By firstProductName=By.xpath("//h4[@class='product-name']");
+	private By incrementFirstProduct=By.cssSelector("a.increment");
+	
+	public ShoppingCartHomePage(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	public WebElement getSearchElement() {
+		return driver.findElement(searchVeg);
+	}
+	
+	public WebElement getFirstElement() {
+		return driver.findElement(firstProductName);
+	}
+
+}

@@ -1,0 +1,16 @@
+package stepDefinitions;
+
+import cucumber.api.java.Before;
+
+public class Hooks {
+	
+	@Before("@SmokeTest")
+	public void beforeSmokeTest() {
+		System.out.println("To execute before Smoke test");
+	}
+	
+	public void afterSmokeTest() {
+		System.out.println("To execute after Smoke test");
+	}
+
+}

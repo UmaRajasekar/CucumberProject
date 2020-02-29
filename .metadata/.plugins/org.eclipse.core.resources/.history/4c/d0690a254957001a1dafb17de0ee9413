@@ -1,0 +1,7 @@
+Feature: Test WikiPedia page
+@RegTest
+Scenario: Test India Countries wiki page
+Given A browser is opened
+When A "India" Wiki "https://en.wikipedia.org/wiki/India" is entered 
+Then A web page opened with "India" displayed in block letters
+And Article and Talk tabs are displayed - "true"

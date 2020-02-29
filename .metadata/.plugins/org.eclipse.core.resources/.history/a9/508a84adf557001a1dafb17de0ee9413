@@ -1,0 +1,10 @@
+package myLearnings;
+
+public class SeleniumTest {
+
+	@Test
+	public void SeleniumFirstTestCase() {
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+Feature: Test WikiPedia page
+
+Scenario: Test India Countries wiki page
+Given A browser is opened
+When A India-Wiki URL is entered 
+Then A web page opened with India in block letters

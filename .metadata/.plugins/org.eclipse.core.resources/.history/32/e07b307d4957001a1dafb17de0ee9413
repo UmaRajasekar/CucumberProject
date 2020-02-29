@@ -1,0 +1,7 @@
+Feature: Test WikiPedia page
+@RegTest
+Scenario: Test India Countries wiki page
+Given In google landing page using url "https://www.google.com/"
+When 
+Then A web page opened with "India" displayed in block letters
+And Article and Talk tabs are displayed - "true"

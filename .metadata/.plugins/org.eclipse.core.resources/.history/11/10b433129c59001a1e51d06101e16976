@@ -1,0 +1,22 @@
+package stepDefinitions;
+
+
+@RunWith(Cucumber.class)
+public class SearchFeature {
+
+    @Given("^User is on landing page$")
+    public void user_is_on_landing_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^User searches for \"([^\"]*)\" vegetable$")
+    public void user_searches_for_something_vegetable(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^\"([^\"]*)\" results are displayed$")
+    public void something_results_are_displayed(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+}

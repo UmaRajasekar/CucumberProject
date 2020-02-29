@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="3.928">
+    <testsuite name="Feature: Testing Search feature in Search Website" time="3.928">
+      <testsuite name="Scenario: Test Searching for vegetable cucumber" time="3.928">
+        <testcase name="Given User is on landing page" classname="Scenario: Test Searching for vegetable cucumber" time="3.675"/>
+        <testcase name="When User searches for &quot;Cucumber&quot; vegetable" classname="Scenario: Test Searching for vegetable cucumber" time="0.09"/>
+        <testcase name="Then &quot;Cucumber&quot; results are displayed" classname="Scenario: Test Searching for vegetable cucumber" time="0.163"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

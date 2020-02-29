@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="8" started="8" failures="0" errors="4" ignored="6">
+  <testsuite name="cucumberOptions.TestRunner" time="6.238">
+    <testsuite name="Feature: Testing Search feature in Search Website" time="6.238">
+      <testsuite name="Scenario: Test Searching for vegetable cucumber" time="0.005" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:24)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on landing page" classname="Scenario: Test Searching for vegetable cucumber" time="0.004">
+          <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:24)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User searches for &quot;Cucumber&quot; vegetable" classname="Scenario: Test Searching for vegetable cucumber" time="0.002" ignored="true"/>
+        <testcase name="Then &quot;Cucumber&quot; results are displayed" classname="Scenario: Test Searching for vegetable cucumber" time="0.25" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Test Checkout for vegetable brinjal" time="0.001" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:24)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:11)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on landing page" classname="Scenario: Test Checkout for vegetable brinjal" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:24)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User searches for &quot;Brinjal&quot; vegetable" classname="Scenario: Test Checkout for vegetable brinjal" time="0.002" ignored="true"/>
+        <testcase name="And Items added to Carts" classname="Scenario: Test Checkout for vegetable brinjal" time="0.001" ignored="true"/>
+        <testcase name="And User proceeds to checkout for purchase" classname="Scenario: Test Checkout for vegetable brinjal" time="0.002" ignored="true"/>
+        <testcase name="Then Check whether selected &quot;Brinjal&quot; is available in checkout page" classname="Scenario: Test Checkout for vegetable brinjal" time="0.161" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

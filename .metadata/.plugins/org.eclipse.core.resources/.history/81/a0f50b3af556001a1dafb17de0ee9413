@@ -1,0 +1,7 @@
+Feature: Test WikiPedia page
+
+Scenario: Test India Countries wiki page
+Given A browser is opened and "url" is defined.
+When A India-Wiki URL is entered 
+Then A web page opened with India displayed in block letters
+And Article and Talk tabs are displayed

@@ -1,0 +1,19 @@
+Feature: Test WikiPedia page
+
+Scenario: Test India Countries wiki page
+Given A browser is opened
+When A "India" Wiki "https://en.wikipedia.org/wiki/India" is entered 
+Then A web page opened with "India" displayed in block letters
+And Article and Talk tabs are displayed - "true"
+
+Scenario: Test Russia Countries wiki page
+Given A browser is opened
+When A "Russia" Wiki "https://en.wikipedia.org/wiki/Russia" is entered 
+Then A web page opened with "Russia" displayed in block letters
+And Article and Talk tabs are displayed - "true"
+
+Scenario: Test Wiki page sign up
+Given A browser is opened
+When A "Wiki Home page" Wiki "https://en.wikipedia.org/" is entered 
+Then A web page opened with "Russia" displayed in block letters
+And Article and Talk tabs are displayed - "true"

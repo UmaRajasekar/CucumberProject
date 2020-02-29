@@ -1,0 +1,13 @@
+package stepDefinitions;
+
+public class Hooks {
+
+	public void beforeSmokeTest() {
+		System.out.println("To execute before Smoke test");
+	}
+	
+	public void afterSmokeTest() {
+		
+	}
+
+}

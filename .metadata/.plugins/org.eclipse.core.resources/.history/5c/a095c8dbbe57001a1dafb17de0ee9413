@@ -1,0 +1,13 @@
+package stepDefinitions;
+
+public class Hooks {
+
+	public void beforeSmokeTest() {
+		
+	}
+	
+	public void afterSmokeTest() {
+		
+	}
+
+}

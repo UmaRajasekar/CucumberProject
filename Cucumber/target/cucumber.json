@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test Searching for vegetable cucumber",
+        "description": "",
+        "id": "testing-search-feature-in-search-website;test-searching-for-vegetable-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13596906400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on landing page",
+            "match": {
+              "location": "SearchFeature.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3277361100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for Cucumber vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchFeature.user_searches_for_something_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46990800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchFeature.something_results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SeleniumTest1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Search feature in Search Website",
+    "description": "",
+    "id": "testing-search-feature-in-search-website",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]

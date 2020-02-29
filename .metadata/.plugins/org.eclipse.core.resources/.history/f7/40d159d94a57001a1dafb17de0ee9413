@@ -1,0 +1,105 @@
+package stepDefinitions;
+
+//import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.DataTable;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+
+import java.util.List;
+
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class IndiaReport {
+
+    @Given("^A browser is opened$")
+    public void a_browser_is_opened() throws Throwable {
+        //throw new PendingException();
+    	System.out.println("Browser is opened");
+    }
+
+    @When("^A \"([^\"]*)\" Wiki \"([^\"]*)\" is entered$")
+    public void a_Wiki_is_entered(String arg1, String arg2) throws Throwable {
+        //throw new PendingException();
+    	System.out.println("A "+arg1+"-Wiki "+arg2+" is entered");
+    }
+
+    @Then("^A web page opened with \"([^\"]*)\" displayed in block letters$")
+    public void a_web_page_opened_with_something_displayed_in_block_letters(String strArg1) throws Throwable {
+        //throw new PendingException();
+    	System.out.println("A web page opened with "+strArg1+" displayed in block letters");
+    }
+
+    @And("^Article and Talk tabs are displayed - \"([^\"]*)\"$")
+    public void article_and_talk_tabs_are_displayed_something(String strArg1) throws Throwable {
+        System.out.println("Article and Talk tabs display status:"+strArg1);
+    }
+    
+    @When("^A \"([^\"]*)\" Wiki \"([^\"]*)\" is entered and click create account is mentioned$")
+    public void a_something_wiki_something_is_entered_and_click_create_account_is_mentioned(String strArg1, String strArg2, DataTable data) throws Throwable {
+        System.out.println(strArg1);
+        System.out.println(strArg2);
+        System.out.println("Listing down all the datatable variables");
+        List<List<String>> obj=data.raw();
+        System.out.println(obj.get(0).get(0));
+        System.out.println(obj.get(0).get(1));
+        System.out.println(obj.get(0).get(2));
+        System.out.println(obj.get(0).get(3));
+        System.out.println(obj.get(0).get(4));
+    }
+
+    @Then("^A wikipedia account is created$")
+    public void a_wikipedia_account_is_created() throws Throwable {
+        System.out.println("A wikipedia account is created");
+    }
+    
+    @When("^For a (.+), Wiki page (.+) is displayed$")
+    public void for_a_wiki_page_is_displayed(String countryname, String wikipedialink) throws Throwable {
+        System.out.println("The wiki page for country "+countryname+" is "+wikipedialink);
+    }
+
+    @Then("^A webpage opened with (.+) displayed in block letters$")
+    public void a_webpage_opened_with_displayed_in_block_letters(String countryname) throws Throwable {
+        System.out.println(countryname+" is validated");
+    }
+    
+    @Given("^Initiating a selenium driver$")
+    public void initiating_a_selenium_driver() throws Throwable {
+        System.out.println("Initiating selenium diver");
+    }
+
+    @Given("^In google landing page using url \"([^\"]*)\"$")
+    public void in_google_landing_page_using_url_something(String strArg1) throws Throwable {
+        System.out.println("Enter URL:"+strArg1);
+    }
+
+    @When("^Chrome browser is opened$")
+    public void chrome_browser_is_opened() throws Throwable {
+        System.out.println("Opening chrome browser");
+    }
+
+    @When("^keyword \"([^\"]*)\" is entered in search bar$")
+    public void keyword_something_is_entered_in_search_bar(String strArg1) throws Throwable {
+        System.out.println("Entering keyword in search bar:"+strArg1);
+    }
+
+    @Then("^opening browser should be validated$")
+    public void opening_browser_should_be_validated() throws Throwable {
+        System.out.println("Validating opened browser");
+    }
+
+    @Then("^Results should be available under below sections:$")
+    public void results_should_be_available_under_below_sections(DataTable data) throws Throwable {
+        System.out.println("Opening Results from the search bar and results should be available from below sections");
+        List<List<String>> obj=data.raw();
+        for (List<String> list : obj) {
+			for (String string : list) {
+				
+			}
+		}
+    }
+
+}

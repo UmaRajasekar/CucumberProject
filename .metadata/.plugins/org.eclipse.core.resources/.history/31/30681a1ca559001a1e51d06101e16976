@@ -1,0 +1,15 @@
+Feature: Testing Search feature in Search Website
+
+@SeleniumTest
+Scenario: Test Searching for vegetable cucumber
+Given User is on landing page
+When User searches for "Cucumber" vegetable
+Then "Cucumber" results are displayed
+
+@SeleniumTest
+Scenario: Test Checkout for vegetable brinjal
+Given User is on landing page
+When User searches for "Brinjal" vegetable
+And Items added to Carts
+And User proceeds to checkout for purchase
+Then Check whether selected "Brinjal" is available in checkout page

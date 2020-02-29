@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="8" started="8" failures="0" errors="5" ignored="6">
+  <testsuite name="cucumberOptions.TestRunner" time="16.412">
+    <testsuite name="Feature: Testing Search feature in Search Website" time="16.412">
+      <testsuite name="Scenario: Test Searching for vegetable cucumber" time="0.004" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:21)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:5)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on landing page" classname="Scenario: Test Searching for vegetable cucumber" time="0.004">
+          <error>java.lang.NullPointerException&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:21)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:5)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User searches for &quot;Cucumber&quot; vegetable" classname="Scenario: Test Searching for vegetable cucumber" time="0.001" ignored="true"/>
+        <testcase name="Then &quot;Cucumber&quot; results are displayed" classname="Scenario: Test Searching for vegetable cucumber" time="0.229" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Test Checkout for vegetable brinjal" time="0.01" incomplete="true">
+        <error>org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J0CFBLMC', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB0C83+1707139]
+	Ordinal0 [0x00B168F1+1075441]
+	Ordinal0 [0x00A8DE72+515698]
+	Ordinal0 [0x00A87CA8+490664]
+	Ordinal0 [0x00A8839B+492443]
+	Ordinal0 [0x00A892F5+496373]
+	Ordinal0 [0x00A84F05+478981]
+	Ordinal0 [0x00A8ECA0+519328]
+	Ordinal0 [0x00A3CA67+182887]
+	Ordinal0 [0x00A3BDDD+179677]
+	Ordinal0 [0x00A39D4B+171339]
+	Ordinal0 [0x00A21D4A+73034]
+	Ordinal0 [0x00A22DC0+77248]
+	Ordinal0 [0x00A22D59+77145]
+	Ordinal0 [0x00B2BB67+1162087]
+	GetHandleVerifier [0x00C4A966+508998]
+	GetHandleVerifier [0x00C4A6A4+508292]
+	GetHandleVerifier [0x00C5F7B7+594583]
+	GetHandleVerifier [0x00C4B1D6+511158]
+	Ordinal0 [0x00B2402C+1130540]
+	Ordinal0 [0x00B2D4CB+1168587]
+	Ordinal0 [0x00B2D633+1168947]
+	Ordinal0 [0x00B45B35+1268533]
+	BaseThreadInitThunk [0x76B16359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B44+180]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:18)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:11)&#13;
+&#13;
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J0CFBLMC', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\UmaRa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54767}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29b6635935fd0f238b48aa7a25adfc85&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)&#13;
+	at stepDefinitions.Hooks.afterSeleniumTest(Hooks.java:20)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on landing page" classname="Scenario: Test Checkout for vegetable brinjal" time="0.005">
+          <error>org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J0CFBLMC', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BB0C83+1707139]
+	Ordinal0 [0x00B168F1+1075441]
+	Ordinal0 [0x00A8DE72+515698]
+	Ordinal0 [0x00A87CA8+490664]
+	Ordinal0 [0x00A8839B+492443]
+	Ordinal0 [0x00A892F5+496373]
+	Ordinal0 [0x00A84F05+478981]
+	Ordinal0 [0x00A8ECA0+519328]
+	Ordinal0 [0x00A3CA67+182887]
+	Ordinal0 [0x00A3BDDD+179677]
+	Ordinal0 [0x00A39D4B+171339]
+	Ordinal0 [0x00A21D4A+73034]
+	Ordinal0 [0x00A22DC0+77248]
+	Ordinal0 [0x00A22D59+77145]
+	Ordinal0 [0x00B2BB67+1162087]
+	GetHandleVerifier [0x00C4A966+508998]
+	GetHandleVerifier [0x00C4A6A4+508292]
+	GetHandleVerifier [0x00C5F7B7+594583]
+	GetHandleVerifier [0x00C4B1D6+511158]
+	Ordinal0 [0x00B2402C+1130540]
+	Ordinal0 [0x00B2D4CB+1168587]
+	Ordinal0 [0x00B2D633+1168947]
+	Ordinal0 [0x00B45B35+1268533]
+	BaseThreadInitThunk [0x76B16359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B44+180]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at Automation.Cucumber.Base.getDriver(Base.java:18)&#13;
+	at stepDefinitions.SearchFeature.user_is_on_landing_page(SearchFeature.java:23)&#13;
+	at ✽.Given User is on landing page(search.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User searches for &quot;Brinjal&quot; vegetable" classname="Scenario: Test Checkout for vegetable brinjal" time="0.002" ignored="true"/>
+        <testcase name="And Items added to Carts" classname="Scenario: Test Checkout for vegetable brinjal" time="0.002" ignored="true"/>
+        <testcase name="And User proceeds to checkout for purchase" classname="Scenario: Test Checkout for vegetable brinjal" time="0.004" ignored="true"/>
+        <testcase name="Then Check whether selected &quot;Brinjal&quot; is available in checkout page" classname="Scenario: Test Checkout for vegetable brinjal" time="0.048" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,16 @@
+package myLearnings;
+
+public class SeleniumTest {
+	
+	@Test
+
+	public void testBrowserOpen() {
+		
+	}
+	
+	public void testBrowserClose() {
+		
+	}
+
+
+}

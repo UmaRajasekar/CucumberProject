@@ -1,0 +1,21 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class ShoppingCartHomePage {
+	
+	private WebDriver driver;
+	private By searchVeg=By.xpath("//input[@type='search']");
+	
+	public ShoppingCartHomePage(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	public WebElement getSearchElement() {
+		driver.findElement(searchVeg);
+		return driver;
+	}
+
+}

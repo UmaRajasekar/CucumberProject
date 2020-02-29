@@ -1,0 +1,13 @@
+Feature: Testing Search feature in Search Website
+
+@SeleniumTest
+Scenario: Test Searching for vegetable cucumber
+Given User is on landing page
+When User searches for "Cucumber" vegetable
+Then "Cucumber" results are displayed
+
+@SeleniumTest
+Scenario: Test Searching for vegetable cucumber
+Given User is on landing page
+When User searches for "Cucumber" vegetable
+Then "Cucumber" results are displayed

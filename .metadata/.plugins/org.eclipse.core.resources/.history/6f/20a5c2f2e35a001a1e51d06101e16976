@@ -1,0 +1,13 @@
+package pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class ProceedToCheckOut {
+	
+	private WebDriver driver;
+	
+	public ProceedToCheckOut(WebDriver driver) {
+		this.driver=driver;
+	}
+
+}

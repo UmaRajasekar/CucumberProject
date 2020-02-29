@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle including all jars
+Implementation-Version: 0.0.1-SNAPSHOT
+Created-By: denOfProgramming
+Main-Class: com.denofprogramming.random.App
+

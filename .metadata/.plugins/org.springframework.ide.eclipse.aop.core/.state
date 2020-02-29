@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="restful"/>
+<aop-project name="restapi"/>
+<aop-project name="soap"/>
+</aop-reference-model>

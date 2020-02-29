@@ -1,0 +1,45 @@
+package Automation.Cucumber;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Enumeration;
+import java.util.Properties;
+import java.util.Set;
+
+import gherkin.deps.net.iharder.Base64.InputStream;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	public static Properties prop;
+    public static void main( String[] args ) throws IOException
+    {
+        System.out.println( "Hello World!" );
+        InputStream ip=(InputStream) App.class.getClassLoader().getResourceAsStream("C:\\Users\\UmaRa\\eclipse-workspace\\Cucumber\\src\\test\\java\\Automation\\Cucumber\\global.properties");
+        FileInputStream fis=new FileInputStream("C:\\Temp\\ChromeDriver\\global.properties") ;
+       
+        if (fis == null) {
+            System.out.println("Sorry, unable to find " );
+            return;
+        }
+        
+       
+
+
+
+        Set<Object> objects = prop.keySet();
+
+        Enumeration e = prop.propertyNames();
+        while (e.hasMoreElements()) {
+            String key = (String) e.nextElement();
+            String value = prop.getProperty(key);
+            System.out.println("Key : " + key + ", Value : " + value);
+        }
+                prop.load(fis);
+                System.out.println(prop.getProperty("url"));
+    }
+}

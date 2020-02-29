@@ -1,0 +1,7 @@
+package Automation.Cucumber;
+
+public class Base {
+	
+	public static WebDriver driver;
+
+}
