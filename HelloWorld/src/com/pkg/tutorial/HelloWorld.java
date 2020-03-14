@@ -6,6 +6,11 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Java");
 		System.out.println("Hello World");
+		
+		String string="R̥aja";
+		System.out.println(string.toString());
+		Object obj=new Object();
+		System.out.println(obj.toString());
 	}
 
 }

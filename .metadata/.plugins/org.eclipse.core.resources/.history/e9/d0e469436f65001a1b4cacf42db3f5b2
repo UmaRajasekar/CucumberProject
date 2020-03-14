@@ -1,0 +1,8 @@
+Feature: Testing login feature of Gmail website
+
+@GmailTest
+Scenario: Test Login functionality
+Given User is on Gmail login page using url "https://accounts.google.com/"
+When User enters "username" and clicks Next
+And user enters "password" and clicks Next
+Then Gmail Home page is displayed

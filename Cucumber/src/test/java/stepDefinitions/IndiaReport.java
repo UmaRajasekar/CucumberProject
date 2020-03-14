@@ -18,12 +18,14 @@ public class IndiaReport {
     @Given("^A browser is opened$")
     public void a_browser_is_opened() throws Throwable {
         //throw new PendingException();
+    	System.out.println("Thread ID - "+Thread.currentThread().getId()+" - %s from %s feature file.\n"  );
     	System.out.println("Browser is opened");
     }
 
     @When("^A \"([^\"]*)\" Wiki \"([^\"]*)\" is entered$")
     public void a_Wiki_is_entered(String arg1, String arg2) throws Throwable {
         //throw new PendingException();
+    	
     	System.out.println("A "+arg1+"-Wiki "+arg2+" is entered");
     }
 
@@ -73,6 +75,7 @@ public class IndiaReport {
 
     @Given("^In google landing page using url \"([^\"]*)\"$")
     public void in_google_landing_page_using_url_something(String strArg1) throws Throwable {
+    	System.out.println("Thread ID - "+Thread.currentThread().getId()+" - %s from %s feature file.\n"  );
         System.out.println("Enter URL:"+strArg1);
     }
 

@@ -1,0 +1,15 @@
+package com.pkg.tutorial;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Welcome to Java");
+		System.out.println("Hello World");
+		
+		String string="R̥aja";
+		System.out.println(string.toString());
+		System.out.println(new Object()).toString);
+	}
+
+}

@@ -1,0 +1,7 @@
+Feature: Testing login feature of Gmail website
+
+@GmailTest
+Scenario: Test Searching for vegetable cucumber
+Given User is on landing page
+When User searches for Cucumber vegetable
+Then "Cucumber" results are displayed

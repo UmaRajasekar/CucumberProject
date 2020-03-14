@@ -19,5 +19,15 @@ public class Hooks extends Base{
 	public void afterSeleniumTest() {
 		driver.close();
 	}
+	
+	@Before
+	public void beforeSmoke() {
+		System.out.println("Before 1");
+	}
+	
+	@Before
+	public void beforeSmoke1() {
+		System.out.println("Before 2");
+	}
 
 }

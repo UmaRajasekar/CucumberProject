@@ -7,10 +7,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features= "src/test/java/features",
+	features= "src/test/java/features/NonWikiReport.feature",
 	glue="stepDefinitions",
-	//tags="@ProgTest,@RegTest,@SmokeTest",
-	tags="@SeleniumTest",
+	tags="@ProgTest,@RegTest,@SmokeTest",
+	//tags="@SeleniumTest",
+	
 	plugin= {"pretty",
 			"html:target/cucumber",
 			"json:target/cucumber.json",

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.978259">
+<testcase classname="Test Non-WikiPedia page" name="Test India Countries wiki page" time="0.969541">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When A "India" Wiki "https://en.wikipedia.org/wiki/India" is entered........passed
+Then A web page opened with "India" displayed in block letters..............passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test Russia Countries wiki page" time="0.003998">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When A "Russia" Wiki "https://en.wikipedia.org/wiki/Russia" is entered......passed
+Then A web page opened with "Russia" displayed in block letters.............passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test Wiki page sign up" time="0.002378">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When A "Wiki Home page" Wiki "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page&campaign=loginCTA" is entered and click create account is mentioned.passed
+Then A wikipedia account is created.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test different Countries wiki page" time="0.000511">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When For a China, Wiki page https://en.wikipedia.org/wiki/China is displayed.passed
+Then A webpage opened with China displayed in block letters.................passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test different Countries wiki page" time="0.000512">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When For a Afghanistan, Wiki page https://en.wikipedia.org/wiki/Afghanistan is displayed.passed
+Then A webpage opened with Afghanistan displayed in block letters...........passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test different Countries wiki page 2" time="0.000593">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When For a Bangaladesh, Wiki page https://en.wikipedia.org/wiki/Bangaladesh is displayed.passed
+Then A webpage opened with Bangaladesh displayed in block letters...........passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Non-WikiPedia page" name="Test different Countries wiki page 3" time="0.000726">
+<system-out><![CDATA[Given A browser is opened...................................................passed
+When For a Pakistan, Wiki page https://en.wikipedia.org/wiki/Pakistan is displayed.passed
+Then A webpage opened with Pakistan displayed in block letters..............passed
+And Article and Talk tabs are displayed - "true"............................passed
+]]></system-out>
+</testcase>
+</testsuite>

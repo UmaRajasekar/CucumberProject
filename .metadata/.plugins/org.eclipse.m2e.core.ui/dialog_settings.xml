@@ -20,6 +20,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\UmaRa\MavenJava\MavenJava"/>
 			<item value="C:\Users\UmaRa\Mavenjava"/>
 			<item value="C:\Users\UmaRa\eclipse-workspace\restapi"/>
 			<item value="C:\Users\UmaRa\eclipse-workspace\restful"/>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber" tests="39" started="39" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="0.16">
+    <testsuite name="Feature: Test WikiPedia page" time="0.067">
+      <testsuite name="Scenario: Test India Countries wiki page" time="0.003">
+        <testcase name="Given A browser is opened" classname="Scenario: Test India Countries wiki page" time="0.0"/>
+        <testcase name="When A &quot;India&quot; Wiki &quot;https://en.wikipedia.org/wiki/India&quot; is entered" classname="Scenario: Test India Countries wiki page" time="0.0"/>
+        <testcase name="Then A web page opened with &quot;India&quot; displayed in block letters" classname="Scenario: Test India Countries wiki page" time="0.0"/>
+        <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="Scenario: Test India Countries wiki page" time="0.003"/>
+      </testsuite>
+      <testsuite name="Scenario: Test Russia Countries wiki page" time="0.002">
+        <testcase name="Given A browser is opened" classname="Scenario: Test Russia Countries wiki page" time="0.0"/>
+        <testcase name="When A &quot;Russia&quot; Wiki &quot;https://en.wikipedia.org/wiki/Russia&quot; is entered" classname="Scenario: Test Russia Countries wiki page" time="0.0"/>
+        <testcase name="Then A web page opened with &quot;Russia&quot; displayed in block letters" classname="Scenario: Test Russia Countries wiki page" time="0.001"/>
+        <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="Scenario: Test Russia Countries wiki page" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Test Wiki page sign up" time="0.01">
+        <testcase name="Given A browser is opened" classname="Scenario: Test Wiki page sign up" time="0.003"/>
+        <testcase name="When A &quot;Wiki Home page&quot; Wiki &quot;https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page&amp;campaign=loginCTA&quot; is entered and click create account is mentioned" classname="Scenario: Test Wiki page sign up" time="0.001"/>
+        <testcase name="Then A wikipedia account is created" classname="Scenario: Test Wiki page sign up" time="0.006"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Test different Countries wiki page" time="0.028">
+        <testsuite name="Examples: Testing with different test data" time="0.028">
+          <testsuite name="| China | https://en.wikipedia.org/wiki/China |" time="0.005">
+            <testcase name="Given A browser is opened" classname="| China | https://en.wikipedia.org/wiki/China |" time="0.001"/>
+            <testcase name="When For a China, Wiki page https://en.wikipedia.org/wiki/China is displayed" classname="| China | https://en.wikipedia.org/wiki/China |" time="0.002"/>
+            <testcase name="Then A webpage opened with China displayed in block letters" classname="| China | https://en.wikipedia.org/wiki/China |" time="0.001"/>
+            <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="| China | https://en.wikipedia.org/wiki/China |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| Afghanistan | https://en.wikipedia.org/wiki/Afghanistan |" time="0.005">
+            <testcase name="Given A browser is opened" classname="| Afghanistan | https://en.wikipedia.org/wiki/Afghanistan |" time="0.001"/>
+            <testcase name="When For a Afghanistan, Wiki page https://en.wikipedia.org/wiki/Afghanistan is displayed" classname="| Afghanistan | https://en.wikipedia.org/wiki/Afghanistan |" time="0.001"/>
+            <testcase name="Then A webpage opened with Afghanistan displayed in block letters" classname="| Afghanistan | https://en.wikipedia.org/wiki/Afghanistan |" time="0.001"/>
+            <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="| Afghanistan | https://en.wikipedia.org/wiki/Afghanistan |" time="0.002"/>
+          </testsuite>
+          <testsuite name="| Bangaladesh | https://en.wikipedia.org/wiki/Bangaladesh |" time="0.004">
+            <testcase name="Given A browser is opened" classname="| Bangaladesh | https://en.wikipedia.org/wiki/Bangaladesh |" time="0.001"/>
+            <testcase name="When For a Bangaladesh, Wiki page https://en.wikipedia.org/wiki/Bangaladesh is displayed" classname="| Bangaladesh | https://en.wikipedia.org/wiki/Bangaladesh |" time="0.001"/>
+            <testcase name="Then A webpage opened with Bangaladesh displayed in block letters" classname="| Bangaladesh | https://en.wikipedia.org/wiki/Bangaladesh |" time="0.001"/>
+            <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="| Bangaladesh | https://en.wikipedia.org/wiki/Bangaladesh |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| Pakistan | https://en.wikipedia.org/wiki/Pakistan |" time="0.004">
+            <testcase name="Given A browser is opened" classname="| Pakistan | https://en.wikipedia.org/wiki/Pakistan |" time="0.001"/>
+            <testcase name="When For a Pakistan, Wiki page https://en.wikipedia.org/wiki/Pakistan is displayed" classname="| Pakistan | https://en.wikipedia.org/wiki/Pakistan |" time="0.001"/>
+            <testcase name="Then A webpage opened with Pakistan displayed in block letters" classname="| Pakistan | https://en.wikipedia.org/wiki/Pakistan |" time="0.001"/>
+            <testcase name="And Article and Talk tabs are displayed - &quot;true&quot;" classname="| Pakistan | https://en.wikipedia.org/wiki/Pakistan |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Test Non-WikiPedia page" time="0.089">
+      <testsuite name="Scenario: Test India Countries wiki page" time="0.006">
+        <testcase name="Given Initiating a selenium driver" classname="Scenario: Test India Countries wiki page" time="0.001"/>
+        <testcase name="When Chrome browser is opened" classname="Scenario: Test India Countries wiki page" time="0.0"/>
+        <testcase name="Then opening browser should be validated" classname="Scenario: Test India Countries wiki page" time="0.003"/>
+        <testcase name="Given In google landing page using url &quot;https://www.google.com/&quot;" classname="Scenario: Test India Countries wiki page" time="0.001"/>
+        <testcase name="When keyword &quot;wiki&quot; is entered in search bar" classname="Scenario: Test India Countries wiki page" time="0.001"/>
+        <testcase name="Then Results should be available under below sections:" classname="Scenario: Test India Countries wiki page" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Test India Countries wiki page" time="0.069">
+        <testcase name="Given Initiating a selenium driver" classname="Scenario: Test India Countries wiki page" time="0.002"/>
+        <testcase name="When Chrome browser is opened" classname="Scenario: Test India Countries wiki page" time="0.001"/>
+        <testcase name="Then opening browser should be validated" classname="Scenario: Test India Countries wiki page" time="0.002"/>
+        <testcase name="Given In google landing page using url &quot;https://www.google.com/&quot;" classname="Scenario: Test India Countries wiki page" time="0.001"/>
+        <testcase name="When keyword &quot;wiki&quot; is entered in search bar" classname="Scenario: Test India Countries wiki page" time="0.005"/>
+        <testcase name="Then Results should be available under below sections:" classname="Scenario: Test India Countries wiki page" time="0.058"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

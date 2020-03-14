@@ -1,0 +1,13 @@
+Feature: Test Non-WikiPedia page
+Feature: Test WikiPedia page
+
+  Background: Opening a browser                                          # IndiaReport.feature:4
+    Given Initiating a selenium driver                                   # IndiaReport.initiating_a_selenium_driver()
+    When Chrome browser is opened                                        # IndiaReport.a_browser_is_opened()
+    Then opening browser should be validated
+    Given A browser is opened                                            # IndiaReport.chrome_browser_is_opened()
+    When A "India" Wiki "https://en.wikipedia.org/wiki/India" is entered
+    Then A web page opened with "India" displayed in block letters
+    And Article and Talk tabs are displayed - "true"
+
+icle and Talk tabs are displayed - "true"
